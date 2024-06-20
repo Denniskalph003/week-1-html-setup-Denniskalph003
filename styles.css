@@ -1,0 +1,113 @@
+/* Global reset and basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Background container styling */
+.background {
+    background-image: url('hotel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+}
+
+/* Header styling */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Header h1 styling */
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Main content section styling */
+main {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Recipe section styling */
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Image container styling */
+.image-container {
+    flex: 1;
+    min-width: 250px;
+    max-width: 40%;
+}
+
+/* Image styling */
+.image-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Content styling */
+.content {
+    flex: 2;
+    min-width: 250px;
+    margin-left: 20px;
+}
+
+/* Content h2 styling */
+.content h2 {
+    color: #50b3a2;
+    font-size: 1.8rem;
+}
+
+/* Instructions section styling */
+.instructions {
+    margin-top: 20px;
+}
+
+/* Instructions h2 styling */
+.instructions h2 {
+    font-size: 1.8rem;
+}
+
+/* Instructions ol styling */
+.instructions ol {
+    padding-left: 20px;
+}
+
+/* Footer section styling */
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Footer p styling */
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
